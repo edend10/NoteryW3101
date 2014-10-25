@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0409207519E889350073A10B /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409207419E889350073A10B /* ImageViewController.m */; };
+		04936A1C19F45DA0000223C2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04936A1B19F45DA0000223C2 /* MessageUI.framework */; };
 		04B369A919E5B11E00CB25C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B369A819E5B11E00CB25C9 /* main.m */; };
 		04B369AC19E5B11E00CB25C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B369AB19E5B11E00CB25C9 /* AppDelegate.m */; };
-		04B369AF19E5B11E00CB25C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B369AE19E5B11E00CB25C9 /* ViewController.m */; };
 		04B369B219E5B11E00CB25C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B369B019E5B11E00CB25C9 /* Main.storyboard */; };
 		04B369B419E5B11E00CB25C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B369B319E5B11E00CB25C9 /* Images.xcassets */; };
 		04B369B719E5B11E00CB25C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B369B519E5B11E00CB25C9 /* LaunchScreen.xib */; };
 		04B369C319E5B11E00CB25C9 /* NoteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B369C219E5B11E00CB25C9 /* NoteryTests.m */; };
+		04B369D119E5B32E00CB25C9 /* NoteMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B369D019E5B32E00CB25C9 /* NoteMasterTableViewController.m */; };
+		04B369D419E5B3A900CB25C9 /* NoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B369D319E5B3A900CB25C9 /* NoteStore.m */; };
+		04B369D719E5B3B200CB25C9 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B369D619E5B3B200CB25C9 /* Note.m */; };
+		04B369D919E5B75800CB25C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B369D819E5B75800CB25C9 /* UIKit.framework */; };
+		04B369DC19E5B9DF00CB25C9 /* NoteMasterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B369DB19E5B9DF00CB25C9 /* NoteMasterTableViewCell.m */; };
+		04F81E0019E6699700E44FED /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F81DFF19E6699700E44FED /* NoteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0409207319E889350073A10B /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		0409207419E889350073A10B /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		04936A1B19F45DA0000223C2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		04B369A319E5B11E00CB25C9 /* Notery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B369A719E5B11E00CB25C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B369A819E5B11E00CB25C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04B369AA19E5B11E00CB25C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04B369AB19E5B11E00CB25C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04B369AD19E5B11E00CB25C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04B369AE19E5B11E00CB25C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04B369B119E5B11E00CB25C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04B369B319E5B11E00CB25C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04B369B319E5B11E00CB25C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Notery/Images.xcassets; sourceTree = "<group>"; };
 		04B369B619E5B11E00CB25C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04B369BC19E5B11E00CB25C9 /* NoteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B369C119E5B11E00CB25C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B369C219E5B11E00CB25C9 /* NoteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteryTests.m; sourceTree = "<group>"; };
+		04B369CF19E5B32E00CB25C9 /* NoteMasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteMasterTableViewController.h; sourceTree = "<group>"; };
+		04B369D019E5B32E00CB25C9 /* NoteMasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteMasterTableViewController.m; sourceTree = "<group>"; };
+		04B369D219E5B3A900CB25C9 /* NoteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteStore.h; sourceTree = "<group>"; };
+		04B369D319E5B3A900CB25C9 /* NoteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteStore.m; sourceTree = "<group>"; };
+		04B369D519E5B3B200CB25C9 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		04B369D619E5B3B200CB25C9 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		04B369D819E5B75800CB25C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04B369DA19E5B9DF00CB25C9 /* NoteMasterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteMasterTableViewCell.h; sourceTree = "<group>"; };
+		04B369DB19E5B9DF00CB25C9 /* NoteMasterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteMasterTableViewCell.m; sourceTree = "<group>"; };
+		04F81DFE19E6699700E44FED /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		04F81DFF19E6699700E44FED /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04936A1C19F45DA0000223C2 /* MessageUI.framework in Frameworks */,
+				04B369D919E5B75800CB25C9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,10 +81,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04936A1719F4592F000223C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04B369D219E5B3A900CB25C9 /* NoteStore.h */,
+				04B369D319E5B3A900CB25C9 /* NoteStore.m */,
+				04B369D519E5B3B200CB25C9 /* Note.h */,
+				04B369D619E5B3B200CB25C9 /* Note.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04936A1819F45948000223C2 /* Note Master View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04B369CF19E5B32E00CB25C9 /* NoteMasterTableViewController.h */,
+				04B369D019E5B32E00CB25C9 /* NoteMasterTableViewController.m */,
+				04B369DA19E5B9DF00CB25C9 /* NoteMasterTableViewCell.h */,
+				04B369DB19E5B9DF00CB25C9 /* NoteMasterTableViewCell.m */,
+			);
+			name = "Note Master View Controller";
+			sourceTree = "<group>";
+		};
+		04936A1919F4597C000223C2 /* Note View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04F81DFE19E6699700E44FED /* NoteViewController.h */,
+				04F81DFF19E6699700E44FED /* NoteViewController.m */,
+				0409207319E889350073A10B /* ImageViewController.h */,
+				0409207419E889350073A10B /* ImageViewController.m */,
+			);
+			name = "Note View Controller";
+			sourceTree = "<group>";
+		};
 		04B3699A19E5B11E00CB25C9 = {
 			isa = PBXGroup;
 			children = (
+				04936A1B19F45DA0000223C2 /* MessageUI.framework */,
+				04B369D819E5B75800CB25C9 /* UIKit.framework */,
 				04B369A519E5B11E00CB25C9 /* Notery */,
+				04B369B319E5B11E00CB25C9 /* Images.xcassets */,
+				04B369B519E5B11E00CB25C9 /* LaunchScreen.xib */,
 				04B369BF19E5B11E00CB25C9 /* NoteryTests */,
 				04B369A419E5B11E00CB25C9 /* Products */,
 			);
@@ -83,11 +141,10 @@
 			children = (
 				04B369AA19E5B11E00CB25C9 /* AppDelegate.h */,
 				04B369AB19E5B11E00CB25C9 /* AppDelegate.m */,
-				04B369AD19E5B11E00CB25C9 /* ViewController.h */,
-				04B369AE19E5B11E00CB25C9 /* ViewController.m */,
 				04B369B019E5B11E00CB25C9 /* Main.storyboard */,
-				04B369B319E5B11E00CB25C9 /* Images.xcassets */,
-				04B369B519E5B11E00CB25C9 /* LaunchScreen.xib */,
+				04936A1819F45948000223C2 /* Note Master View Controller */,
+				04936A1919F4597C000223C2 /* Note View Controller */,
+				04936A1719F4592F000223C2 /* Model */,
 				04B369A619E5B11E00CB25C9 /* Supporting Files */,
 			);
 			path = Notery;
@@ -168,6 +225,7 @@
 				TargetAttributes = {
 					04B369A219E5B11E00CB25C9 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = UCBQ47JUS2;
 					};
 					04B369BB19E5B11E00CB25C9 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -219,7 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B369AF19E5B11E00CB25C9 /* ViewController.m in Sources */,
+				04F81E0019E6699700E44FED /* NoteViewController.m in Sources */,
+				04B369D719E5B3B200CB25C9 /* Note.m in Sources */,
+				0409207519E889350073A10B /* ImageViewController.m in Sources */,
+				04B369D119E5B32E00CB25C9 /* NoteMasterTableViewController.m in Sources */,
+				04B369D419E5B3A900CB25C9 /* NoteStore.m in Sources */,
+				04B369DC19E5B9DF00CB25C9 /* NoteMasterTableViewCell.m in Sources */,
 				04B369AC19E5B11E00CB25C9 /* AppDelegate.m in Sources */,
 				04B369A919E5B11E00CB25C9 /* main.m in Sources */,
 			);
@@ -258,6 +321,7 @@
 				04B369B619E5B11E00CB25C9 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = Notery;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,6 +476,7 @@
 				04B369C819E5B11E00CB25C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B369C919E5B11E00CB25C9 /* Build configuration list for PBXNativeTarget "NoteryTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +485,7 @@
 				04B369CB19E5B11E00CB25C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
