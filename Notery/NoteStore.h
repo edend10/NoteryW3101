@@ -4,6 +4,7 @@
 //
 // The store of notes. Contains an array with all note entries. This is a singleton class, only one instance is possible. Capable of adding/removing notes by index and archive itself on the device.
 //
+//  ed2566
 //  Created by Eden Dolev on 10/8/14.
 //  Copyright (c) 2014 Eden Dolev. All rights reserved.
 //

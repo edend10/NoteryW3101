@@ -2,6 +2,7 @@
 //  ImageViewController.m
 //  Notery
 //
+//  ed2566
 //  Created by Eden Dolev on 10/10/14.
 //  Copyright (c) 2014 Eden Dolev. All rights reserved.
 //

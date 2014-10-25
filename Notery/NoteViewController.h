@@ -4,6 +4,7 @@
 //
 //  Single note view. For editing an existing note or adding a new note. Supports adding/editing an image for the note as well as sending the note via email.
 //
+//  ed2566
 //  Created by Eden Dolev on 10/9/14.
 //  Copyright (c) 2014 Eden Dolev. All rights reserved.
 //
